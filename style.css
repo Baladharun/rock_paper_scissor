@@ -1,0 +1,69 @@
+html{
+    display:flex;
+    background-color: lightslategray;
+    justify-content:center;
+    align-items: center;
+    row-gap: 5vw;
+}
+.hands
+{
+    display:flex;
+    justify-content: center;
+}
+.paper,.rock,.scissor,#lhs,#rhs
+{
+    height:25vw;
+    width:25vw;
+    cursor: pointer;
+}
+.hands
+{
+    column-gap: 15vw;
+}
+#choose
+{
+    display:flex;
+    column-gap:7vw;
+}
+body{
+    display:flex;
+    flex-direction: row;
+    row-gap: 100vw;
+}
+#start_play
+{
+    font-size: 10vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container
+{
+    display:flex;
+    flex-direction: column;
+    row-gap: 7vw;
+}
+.scorecard
+{
+    height:30vw;
+    width:80vw;
+    background-color:lightpink;
+    display:flex;
+}
+#your_score,#computer_score
+{
+    width:40vw;
+}
+.aln
+{
+    text-align: center;
+    font-size: 3vw;
+}
+#ur_score,#comp_score
+{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10vw;
+    font-size: 4vw;
+}
